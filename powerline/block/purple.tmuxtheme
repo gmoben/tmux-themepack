@@ -60,27 +60,29 @@ set -gq @powerline-color-grey-6 colour245
 
 # Powerline Block Override
 set -gqF @powerline-color-activity-1 "#{@powerline-color-main-3}"
+set -gqu @powerline-status-left-area-left-bg
+set -gqu @powerline-status-right-area-right-bg
 
 # Powerline options
-set -gqF @powerline-color-activity-1 "#{@powerline-color-grey-6}"
-set -gqF @powerline-status-bg "#{@powerline-color-grey-1}"
-set -gqF @powerline-status-fg "#{@powerline-color-grey-4}"
-set -gqF @powerline-status-left-area-left-bg "#{@powerline-color-main-1}"
-set -gqF @powerline-status-left-area-left-fg "#{@powerline-status-bg}"
-set -gqF @powerline-status-left-area-middle-bg "#{@powerline-status-fg}"
-set -gqF @powerline-status-left-area-middle-fg "#{@powerline-status-bg}"
-set -gqF @powerline-status-left-area-right-bg "#{@powerline-color-grey-2}"
-set -gqF @powerline-status-left-area-right-fg "#{@powerline-status-fg}"
-set -gqF @powerline-status-left-bg "#{@powerline-color-grey-1}"
-set -gqF @powerline-status-left-fg "#{@powerline-color-grey-5}"
-set -gqF @powerline-status-right-area-left-bg "#{@powerline-color-grey-2}"
-set -gqF @powerline-status-right-area-left-fg "#{@powerline-status-fg}"
-set -gqF @powerline-status-right-area-middle-bg "#{@powerline-status-fg}"
-set -gqF @powerline-status-right-area-middle-fg "#{@powerline-status-bg}"
-set -gqF @powerline-status-right-area-right-bg "#{@powerline-color-grey-6}"
-set -gqF @powerline-status-right-area-right-fg "#{@powerline-status-bg}"
-set -gqF @powerline-status-right-bg "#{@powerline-color-grey-1}"
-set -gqF @powerline-status-right-fg "#{@powerline-color-grey-5}"
+set -gqoF @powerline-color-activity-1 "#{@powerline-color-grey-6}"
+set -gqoF @powerline-status-bg "#{@powerline-color-grey-1}"
+set -gqoF @powerline-status-fg "#{@powerline-color-grey-4}"
+set -gqoF @powerline-status-left-area-left-bg "#{@powerline-color-main-1}"
+set -gqoF @powerline-status-left-area-left-fg "#{@powerline-status-bg}"
+set -gqoF @powerline-status-left-area-middle-bg "#{@powerline-status-fg}"
+set -gqoF @powerline-status-left-area-middle-fg "#{@powerline-status-bg}"
+set -gqoF @powerline-status-left-area-right-bg "#{@powerline-color-grey-2}"
+set -gqoF @powerline-status-left-area-right-fg "#{@powerline-status-fg}"
+set -gqoF @powerline-status-left-bg "#{@powerline-color-grey-1}"
+set -gqoF @powerline-status-left-fg "#{@powerline-color-grey-5}"
+set -gqoF @powerline-status-right-area-left-bg "#{@powerline-color-grey-2}"
+set -gqoF @powerline-status-right-area-left-fg "#{@powerline-status-fg}"
+set -gqoF @powerline-status-right-area-middle-bg "#{@powerline-status-fg}"
+set -gqoF @powerline-status-right-area-middle-fg "#{@powerline-status-bg}"
+set -gqoF @powerline-status-right-area-right-bg "#{@powerline-color-grey-6}"
+set -gqoF @powerline-status-right-area-right-fg "#{@powerline-status-bg}"
+set -gqoF @powerline-status-right-bg "#{@powerline-color-grey-1}"
+set -gqoF @powerline-status-right-fg "#{@powerline-color-grey-5}"
 
 # Theme options
 set -gqF @theme-clock-mode-colour "#{@powerline-color-main-1}"
@@ -116,6 +118,7 @@ set -gqF @theme-window-status-current-bg "#{@powerline-color-main-1}"
 set -gqF @theme-window-status-current-fg "#{@powerline-color-black-1}"
 set -gqF @theme-window-status-format " #{@themepack-window-status-format} "
 set -gqF @theme-window-status-current-format " #{@themepack-window-status-current-format} "
+set -gqF @powerline-status-right-bg "#{@powerline-color-grey-1}"
 
 # Customizable prefixes and suffixes for @theme-* format options
 set -gq @theme-status-left-prefix ""

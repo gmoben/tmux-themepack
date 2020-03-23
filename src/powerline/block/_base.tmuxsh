@@ -2,6 +2,8 @@
 
 # Powerline Block Override
 set -gqF @powerline-color-activity-1 "#{@powerline-color-main-3}"
+set -gqu @powerline-status-left-area-left-bg
+set -gqu @powerline-status-right-area-right-bg
 
 #= include "powerline/_powerline-options"
 

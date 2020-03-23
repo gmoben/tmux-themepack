@@ -1,6 +1,7 @@
 #= include "powerline/_colors/base"
 
 # Powerline Double Override
+set -gqu @powerline-status-left-area-left-bg
 set -gqF @powerline-status-right-area-right-bg "#{@powerline-color-main-1}"
 
 #= include "powerline/_powerline-options"

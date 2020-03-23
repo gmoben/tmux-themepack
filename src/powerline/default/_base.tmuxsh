@@ -1,5 +1,8 @@
 #= include "powerline/_colors/base"
 
+set -gqu @powerline-status-left-area-left-bg
+set -gqu @powerline-status-right-area-right-bg
+
 #= include "powerline/_powerline-options"
 
 #= include "powerline/_theme-options"
