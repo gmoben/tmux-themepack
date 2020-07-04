@@ -26,8 +26,10 @@ main() {
   fi
 
   if [ -f "$CURRENT_DIR/${theme}.tmuxtheme" ]; then
+    echo "if: Sourcing $CURRENT_DIR/${theme}.tmuxtheme"
     tmux source-file "$CURRENT_DIR/${theme}.tmuxtheme"
   else
+    echo "else: Sourcing $CURRENT_DIR/powerline/${theme}.tmuxtheme"
     tmux source-file "$CURRENT_DIR/powerline/${theme}.tmuxtheme"
   fi
 }
